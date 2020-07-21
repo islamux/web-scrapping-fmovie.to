@@ -14,6 +14,8 @@ There are three files each for crawling, tidying and analysing sections respecti
 
 # Analysis
 
+Some of the plots and findings are as follows.
+
 ## Distribution Plots Local vs Imdb Ratings
 Movies |  Tvs
 :-------------------------:|:-------------------------:
