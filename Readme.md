@@ -19,7 +19,6 @@ There are three files each for crawling, tidying and analysing sections respecti
 
 Movies |  Tvs
 :-------------------------:|:-------------------------:
-![img](https://github.com/nibukdk/web-scrapping-fmovie.to/blob/master/Imgs/genre_n_movies.png) 
-  |  ![img](https://github.com/nibukdk/web-scrapping-fmovie.to/blob/master/Imgs/genre_n_tvs.png) 
+![img](https://github.com/nibukdk/web-scrapping-fmovie.to/blob/master/Imgs/genre_n_movies.png) | ![img](https://github.com/nibukdk/web-scrapping-fmovie.to/blob/master/Imgs/genre_n_tvs.png) 
 
 
