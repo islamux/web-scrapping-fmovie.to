@@ -14,6 +14,14 @@ There are three files each for crawling, tidying and analysing sections respecti
 
 # Analysis
 
+## Distribution Plots Local vs Imdb Ratings
+Movies |  Tvs
+:-------------------------:|:-------------------------:
+![img](https://github.com/nibukdk/web-scrapping-fmovie.to/blob/master/Imgs/Distribution_plt_lcl_ratings_mv.png) | ![img](https://github.com/nibukdk/web-scrapping-fmovie.to/blob/master/Imgs/Distribution_plt_lcl_ratings_tv.png) 
+
+Local and IMDB both seems to be quite normally distributed, with the half of  below 7 for movies. While, From the distribution it seems 50% of the site ratings are around 6.5 while 8 for imdb in small screens. 
+
+
 
 ## Genre Portions 
 
@@ -54,7 +62,7 @@ As we can see form both charts, Its clear that IMDB in general does effect the w
 ![img](https://github.com/nibukdk/web-scrapping-fmovie.to/blob/master/Imgs/yr_rank_most_watched_mv.png)
 
 **Coding Logic:** *Lets Rank the year using pd.Rank with "min" being the highest rank. 
-We know that lower the value higher the rank, however, plotting will show opposite.Lets subtract all values by 60 as max value being 42. By doing so smallest rank becomes highest and gets biggest size in plot.*
+We know that lower the value higher the rank(from code), however, plotting will show opposite.Lets subtract all values by 60 as max value being 42. By doing so smallest rank becomes highest and gets biggest size in plot.*
 
 
 Year 1991 is ranked highest, while 1996 is lowest which is 42.
